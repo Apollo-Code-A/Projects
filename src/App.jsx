@@ -1,4 +1,4 @@
-
+import DiscoveryMap from "./components/DiscoveryMap";
 import { useEffect, useState } from "react";
 import {
   Compass, MapPin, Globe2, Menu, X, ArrowRight,
@@ -401,6 +401,8 @@ export default function App() {
           <div className="hero-scroll">SCROLL TO DISCOVER <span/></div>
         </section>
 
+	<DiscoveryMap />	
+	
         <section className="intro section-wrap" id="discover">
           <div className="section-kicker">01 / {t.nav[0]}</div>
           <div className="intro-heading">
